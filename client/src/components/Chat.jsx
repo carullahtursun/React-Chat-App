@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import { Socket } from 'socket.io-client'
+
 
 function Chat({ socket, user, room }) {
   const [message, setMessage] = useState('')
