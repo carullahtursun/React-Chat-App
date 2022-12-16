@@ -13,7 +13,7 @@ const server =http.createServer(app);
 
 const io =new Server(server,{
     cors : {
-        origin :'https://react-chat-app-liart.vercel.app',
+        origin :'http://localhost:3000',
         methods:['GET','post']
     }
 })
